@@ -1,11 +1,17 @@
 'use strict';
 
-var usuario= prompt(' cual es tu nombre?');
-var funcionalidad = prompt(' que necesitas?');
-var usuario= prompt(' cual es el motivo?');
+var usuario = prompt('Cual es tu nombre?');
+var funcionalidad = prompt('Qué necesitas?');
+var razon = prompt('Cual es el motivo?');
 
-var counter ={
-  usuario:
-  funcionalidad
-  razon:
-}
+// var counter = {
+//   user: usuario,
+//   funcionality: funcionalidad,
+//   reason: razon
+// };
+//
+//  counter.printHistory() {
+  alert("Yo como usario: " + usuario + "necesito " + funcionalidad + "con la finalidad de " + razon);
+ // }
+ //
+ // printHistory();
